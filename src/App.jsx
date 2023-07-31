@@ -1,5 +1,5 @@
 import Competitors from "./components/competitors/Competitors";
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import VoteModal from "./components/modal/VoteModal";
 import Timer from "./components/timer/Timer";
 function App() {
