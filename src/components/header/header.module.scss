@@ -1,0 +1,17 @@
+@use "../../variables.scss" as mixin;
+.header {
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: mixin.$secondaryColor;
+    font-size: 1.55rem;
+    font-weight: 700;
+  }
+}

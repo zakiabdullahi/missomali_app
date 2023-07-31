@@ -1,0 +1,28 @@
+@use "./variables.scss" as mixin;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: mixin.$primaryColor;
+  color: mixin.$primaryTextColor;
+  width: mixin.$desktopBreakpoints;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    width: mixin.$tabletBreakpoints;
+    margin: 10px;
+  }
+}
+
+// @media screen and (max-width: 500px) {
+//   body {
+//     width: mixin.$mobileBreakpoints;
+//     margin: 10px;
+//   }
+// }
